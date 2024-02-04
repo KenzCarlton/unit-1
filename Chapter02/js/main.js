@@ -25,7 +25,7 @@ function cities(){
     }]
 
     //create the table element
-    var table = document.createElement("table");
+    let table = document.createElement("table");
 
     //create a header row
     var headerRow = document.createElement("tr");
@@ -46,5 +46,6 @@ function cities(){
 
     document.querySelector("#myDiv").appendChild(table);
 }
+
 
 document.addEventListener('DOMContentLoaded',initialize)
